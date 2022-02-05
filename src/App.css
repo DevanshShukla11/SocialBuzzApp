@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+@import "~antd/dist/antd.css";
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col-main {
+  background-color: #f5f5f5;
+  height: 70px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-main-two {
+  background-color: #f5f5f5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home-icon {
+  color: #ff6f91;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 39px;
+}
+.btn-one {
+  border: none;
+  font-family: cursive;
+  margin-left: 14px;
+  font-size: 14px;
+  margin-top: 18px;
   color: white;
+  background-color: #ff6f91;
+  border-radius: 15px;
+  height: 30px;
+  width: 90px;
 }
-
-.App-link {
-  color: #61dafb;
+.main-container {
+  height: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-footer {
+  margin-top: 20px;
+}
+.card-wrapper {
+  height: 200px;
+  background-color: red;
+}
+.card-one {
+  margin-top: 20px;
+  margin-left: 28px;
+  width: 300px;
+  background-color: rgb(117, 92, 92);
+}
+.main-footer-two {
+  height: 300px;
+  background-color: #a58088;
+}
+.carousel-one {
+  margin-top: 70px;
+}
+/* .carousel-two {
+  background-color: rgb(189, 151, 151);
+} */
+.image-one {
+  padding-left: 50px;
+  margin-top: 80px;
+  margin-left: 10px;
+  width: 450px;
+  height: auto;
+}
+.main-divider {
+  background-color: #ff6f91;
+}
+.main-heading {
+  margin-left: 10px;
+  color: #ff6f91;
+  font-size: 25px;
+  font-family: cursive;
+}
+.mid-heading {
+  margin-left: 22px;
+  justify-content: flex-start;
+  color: #ff6f91;
+  font-size: 14px;
+  font-family: cursive;
+}
+.name {
+  font-weight: 600;
+  color: #ff6f91;
+}
+@media (max-width: 480px) {
+  .main-container {
+    height: 750px;
   }
-  to {
-    transform: rotate(360deg);
+  .btn-one {
+    margin-left: 15px;
+    font-size: 10px;
+    width: 70px;
+  }
+  .card-wrapper {
+    height: 700px;
+  }
+  .image-one {
+    margin-top: 50px;
+    padding-left: 0px;
+    width: 330px;
+  }
+  .carousel-one {
+    margin-top: 10px;
+  }
+  .main-heading {
+    font-size: 19px;
+  }
+  .mid-heading {
+    font-size: 14px;
   }
 }
