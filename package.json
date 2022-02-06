@@ -32,7 +32,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -42,7 +41,7 @@
     ],
     "engines": {
       "node": "14.15.1",
-      "npm":"8.3.1"
+      
     }
   }
 }
