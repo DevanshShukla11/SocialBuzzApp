@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, Col, Row } from "antd";
+import { Card, Col, Row, BackTop } from "antd";
+import { ArrowUpOutlined } from "@ant-design/icons";
 
 export const Footer = () => {
   return (
@@ -50,6 +51,9 @@ export const Footer = () => {
             </Card>
           </Col>
         </Row>
+        <BackTop>
+          <ArrowUpOutlined className="to-top" />
+        </BackTop>
       </div>
     </>
   );
