@@ -20,12 +20,8 @@ const MainComponent = () => {
         >
           <Carousel autoplay>
             <CarouselOne />
-            <div>
-              <h3 style={contentStyle}>thirdd</h3>
-            </div>
-            <div>
-              <h3 style={contentStyle}>Fourth</h3>
-            </div>
+            <CarouselOne />
+            <CarouselOne />
           </Carousel>
         </Col>
       </Row>

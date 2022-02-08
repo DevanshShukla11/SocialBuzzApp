@@ -31,7 +31,7 @@ const CarouselOne = () => {
           <Divider className="main-divider" />
           <p className="mid-heading">
             SocialBuzz web based application is developed by me{" "}
-            <span className="name"> Devansh Shukla</span>
+            <span className="name"> Devansh Shukla : </span>
             (Fullstack web developer) , i hope you all love this project
             Thankyou .
           </p>
